@@ -1,0 +1,45 @@
+#profile img{
+    height:250px;
+    width: 250px;
+    border-radius: 50%;
+    border-style: groove;
+}
+nav{
+    text-transform: uppercase;
+    width: 100%; /* Set a width of the nav */
+    
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  nav ul li{
+    font-size: larger;
+    display: inline-block;
+    float: right;;
+    
+   
+}
+nav ul li a {
+    color: crimson;
+    display: block; /* Make the links appear below each other */
+    padding: 12px;
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  nav ul li a:hover {
+    background-color:red; /* Red background on mouse-over */
+  }
+  body{
+      background-image: url(https://bit.ly/2UIYypZ);
+      background-size: cover;
+  }
+
+  #profile{
+      text-align: center;
+      font-size: xx-large;
+      font-family: 'Jim Nightshade', cursive;
+  }
+  
