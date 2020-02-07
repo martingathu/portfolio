@@ -18,8 +18,7 @@ nav ul {
   nav ul li{
     font-size: larger;
     display: inline-block;
-    float: right;;
-    
+    float: right;      
    
 }
 nav ul li a {
@@ -27,10 +26,12 @@ nav ul li a {
     display: block; /* Make the links appear below each other */
     padding: 12px;
     text-decoration: none; /* Remove underline from links */
+    padding-top: 20px;
+    
   }
   
   nav ul li a:hover {
-    background-color:red; /* Red background on mouse-over */
+    background-color:blanchedalmond; /* Red background on mouse-over */
   }
   body{
       background-image: url(https://bit.ly/2UIYypZ);
@@ -41,5 +42,14 @@ nav ul li a {
       text-align: center;
       font-size: xx-large;
       font-family: 'Jim Nightshade', cursive;
+      line-height: normal;
   }
-  
+  #about{
+      display: flex;
+      padding:10px;
+  }
+  #contacts{
+    text-align: center;
+    border-top:20px solid skyblue ;
+    
+}
