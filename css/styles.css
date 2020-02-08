@@ -52,11 +52,27 @@ nav ul li a {
     font-size: larger;
 
 }
-#education, #job-experience, #why-Programming, #interest{
-    width:200em
+td{
+    padding: 5px;
 }
-#about{
+th{
+    width: 20em;
+    text-align: left;
+    padding: 5px;
+}
+
+
+
+@media only screen and (min-width: 480px) {
+    #about{
     display:flex;
     padding:20px;
     font-size: larger;
-}
+        
+    }
+    #education, #job-experience, #why-Programming, #interest{
+        width: 22em;
+        float: left;
+        padding: 15px;
+    }
+    }
