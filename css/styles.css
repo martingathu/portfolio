@@ -44,14 +44,13 @@ nav ul li a {
       font-family: 'Jim Nightshade', cursive;
       line-height: normal;
   }
-  h2{
-      text-align: center;
-  }
+    
   #contacts{
     text-align: center;
     font-size: larger;
 
 }
+h2
 td{
     padding: 5px;
 }
@@ -60,18 +59,28 @@ th{
     text-align: left;
     padding: 5px;
 }
+h2{
+    color: crimson;
+    text-align: center;
+}
 
-
+h3{
+    color: whitesmoke;
+}
+#profile h3,  #profile p{
+    color: darkkhaki;
+}
 
 @media only screen and (min-width: 480px) {
     #about{
     display:flex;
     padding:20px;
     font-size: larger;
+    flex-wrap: wrap;
         
     }
     #education, #job-experience, #why-Programming, #interest{
-        width: 22em;
+        width: 17em;
         float: left;
         padding: 15px;
     }
