@@ -5,7 +5,7 @@ My-Portfolio is a webpage that describes my education background, contacts, abou
 for learning html and CSS work.
 ## Setup/Installation Requirements
 * clone this repo
-* cd resume
+* cd my-portfolio
 * open index.html
 * ensure u have internet connection for profer fuctionality of all features embedded.
 
