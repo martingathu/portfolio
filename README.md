@@ -14,7 +14,7 @@ as of this time no known bugs
 ## Technologies Used
 HTML & CSS
 ## GitHub ink
-To open My-Portfolio [Click Here](http://www.quora.com/Adam-DAngelo)
+To open My-Portfolio [Click Here](https://martingathu.github.io/portfolio/)
 ## Support and contact details
 for any querries contact me via Martin5gathu@gmail.com.
 ### License
