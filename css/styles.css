@@ -31,17 +31,17 @@ nav ul li a {
   }
   
   nav ul li a:hover {
-    background-color:blanchedalmond; /* Red background on mouse-over */
+    background-color:blanchedalmond; /* blanchedalmond background on mouse-over */
   }
   body{
-      background-image: url(https://bit.ly/2OAitTY);
+      background-image: url(https://bit.ly/2OAitTY); /* Adds a background immage */
       background-size: cover;
   }
 
   #profile{
       text-align: center;
       font-size: xx-large;
-      font-family: 'Jim Nightshade', cursive;
+      font-family: 'Jim Nightshade', cursive; /*google fonts family */
       line-height: normal;
   }
     
@@ -72,7 +72,7 @@ h3{
     color: darkkhaki;
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 480px) { /* adds properties when the viewport screen is above 480px*/
     #about{
     display:flex;
     padding:20px;
